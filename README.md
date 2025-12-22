@@ -124,7 +124,7 @@ matplotlib
 ### Jalankan Aplikasi Streamlit
 
 ```bash
-streamlit run app.py
+streamlit run determinan_app.py
 ```
 
 Aplikasi akan terbuka di browser pada alamat:
@@ -198,10 +198,10 @@ Kesimpulan: Iteratif ~3.9x lebih cepat dari Rekursif
 ```
 tubes_aka/
 │
-├── app.py              # Aplikasi utama Streamlit
+├── determinan_app.py   # Aplikasi utama Streamlit
 ├── requirements.txt    # Dependencies Python
-├── README.md          # Dokumentasi proyek
-└── determinan.js      # (Opsional) Implementasi JavaScript
+├── README.md           # Dokumentasi proyek
+└── determinan.js       # (Opsional) Implementasi JavaScript
 ```
 
 ---
