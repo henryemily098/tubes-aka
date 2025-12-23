@@ -28,7 +28,7 @@ function iterative(matrix, n) {
 
 function innerRecursive(matrix, n, column = 0, row = 0, step) {
     if(column === n) return 1;
-    if(step) {
+    else {
         if(step === 1) {
             if(row === n-1) return matrix[column][row] * innerRecursive(matrix, n, column+1, 0, 1);
             else return matrix[column][row] * innerRecursive(matrix, n, column+1, row+1, 1);
